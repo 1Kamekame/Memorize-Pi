@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+/*function*/
+:root{
+    --answer_color_all:green;
+}
+
+body{
+    /*iphone_se_size
+    width:375px;
+    height:667px;
+    */
+    width:375px;
+    height:620px;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    border:solid 1px black;
+}
+
+.first_number{
+    position:absolute;
+    top:10px;
+    left:5px;
+    font-size:20px;
+    font-family:"Ubuntu Mono";
+}
+
+.number{
+    position:absolute;
+    top:400px;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+.display{
+    width:20ch;
+    width:360px;
+    height:300px;
+    position:absolute;
+    left:5px;
+    top:40px;
+    font-size:30px;
+    font-family:"Ubuntu Mono";
+    resize:none;
+}
+
+/*display_np*/
+.display_np{
+    width:20ch;
+    width:360px;
+    height:300px;
+    position:absolute;
+    left:5px;
+    top:40px;
+    font-size:30px;
+    font-family:"Ubuntu Mono";
+    resize:none;
+}
+
+/*answer*/
+.answer_display{
+    touch-action:none;
+    width:119px;
+    height:50px;
+    background:#f0f0f0;
+    position:absolute;
+    top:350px;
+    left:4px;
+    color:#000000;
+    text-align:center;
+    font-family:"Ubuntu Mono";
+    border:solid 1px black;
+}
+
+.answer_true{
+    touch-action:none;
+    width:119px;
+    height:50px;
+    background:green;
+    position:absolute;
+    top:350px;
+    left:4px;
+    color:#ffffff;
+    text-align:center;
+    font-family:"Ubuntu Mono";
+    border:solid 1px black;
+}
+
+.answer_false{
+    touch-action:none;
+    width:119px;
+    height:50px;
+    background:red;
+    position:absolute;
+    top:350px;
+    left:4px;
+    color:#ffffff;
+    text-align:center;
+    font-family:"Ubuntu Mono";
+    border:solid 1px black;
+}
+
+/*now_position*/
+.now_position{
+    touch-action:none;
+    width:119px;
+    height:50px;
+    background:#f0f0f0;
+    position:absolute;
+    top:350px;
+    left:252px;
+    color:#000000;
+    text-align:center;
+    font-family:"Ubuntu Mono";
+    border:solid 1px black;
+}
+
+/*button color*/
+.button_1{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_2{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_3{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_4{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_5{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_6{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_7{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_8{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_9{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_0{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_back{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_left{
+    touch-action:none;
+    width:55px;
+    height:50px;
+    position:absolute;
+    left:4px;
+    bottom:3px;
+}
+
+.button_right{
+    touch-action:none;
+    width:55px;
+    height:50px;
+    position:absolute;
+    left:64px;
+    bottom:3px;
+}
+
+/*button color np*/
+.button_1_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_2_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_3_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_4_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_5_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_6_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_7_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_8_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_9_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_0_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_back_np{
+    touch-action:none;
+    width:120px;
+    height:50px;
+    background:#f0f0f0;
+}
+
+.button_left_np{
+    touch-action:none;
+    width:55px;
+    height:50px;
+    position:absolute;
+    left:4px;
+    bottom:3px;
+}
+
+.button_right_np{
+    touch-action:none;
+    width:55px;
+    height:50px;
+    position:absolute;
+    left:64px;
+    bottom:3px;
+}
+
+.skip_to{
+    touch-action:none;
+    width:119px;
+    height:50px;
+    position:absolute;
+    top:350px;
+    left:128px;
+    color:black;
+    text-align:center;
+    font-family:"Ubuntu Mono";
+    border:solid 1px black;
+    background:#f0f0f0;
+}
+
+.skip_ent{
+    touch-action:none;
+    width:119px;
+    height:50px;
+    position:absolute;
+    top:350px;
+    left:129px;
+    color:black;
+    text-align:center;
+    font-family:"Ubuntu Mono";
+    border:solid 1px black;
+    background:#f0f0f0;
+}

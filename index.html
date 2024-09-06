@@ -1,0 +1,81 @@
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>円周率</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="first_number">3.</div>
+
+
+    <!--display-->
+    <textarea type="text" name="display" value="" class="display" onchange="display_change" readonly></textarea>
+
+    <!--number-->
+    <table class="number">
+        <tr>
+            <td><button class="button_1">1</button></td>
+            <td><button class="button_2">2</button></td>
+            <td><button class="button_3">3</button></td>
+        </tr>
+        <tr>
+            <td><button class="button_4">4</button></td>
+            <td><button class="button_5">5</button></td>
+            <td><button class="button_6">6</button></td>
+        </tr>
+        <tr>
+            <td><button class="button_7">7</button></td>
+            <td><button class="button_8">8</button></td>
+            <td><button class="button_9">9</button></td>
+        </tr>
+        <tr>
+            <td><button class="button_left"><</button><button class="button_right">></button></td>
+            <td><button class="button_0">0</button></td>
+            <td><button class="button_back">back</button></td>
+        </tr>
+    </table>
+    
+    <!--現在の桁数用のsdisplay-->
+    <textarea type="text" name="display_np" value="" class="display_np" onchange="display_change" readonly hidden></textarea>
+    
+    <table class="number">
+        <tr>
+            <td><button class="button_1_np" hidden>1</button></td>
+            <td><button class="button_2_np" hidden>2</button></td>
+            <td><button class="button_3_np" hidden>3</button></td>
+        </tr>
+        <tr>
+            <td><button class="button_4_np" hidden>4</button></td>
+            <td><button class="button_5_np" hidden>5</button></td>
+            <td><button class="button_6_np" hidden>6</button></td>
+        </tr>
+        <tr>
+            <td><button class="button_7_np" hidden>7</button></td>
+            <td><button class="button_8_np" hidden>8</button></td>
+            <td><button class="button_9_np" hidden>9</button></td>
+        </tr>
+        <tr>
+            <td><button class="button_left_np" hidden><</button><button class="button_right_np" hidden>></button></td>
+            <td><button class="button_0_np" hidden>0</button></td>
+            <td><button class="button_back_np" hidden>back</button></td>
+        </tr>
+    </table>
+
+    <!--正答判定-->
+    
+    <button class="answer_display" id="answer_display">答え合わせ</button>
+    <button class="answer_true" id="answer_true" hidden>正解</button>
+    <button class="answer_false" id="answer_false" hidden>不正解</button>
+    
+    <button class="now_position" id="now_position_ID">現在の桁数:0</button>
+    <button class="skip_to" id="skip_to">自動入力</button>
+    <button class="skip_ent" id="skip_ent" hidden>確定</button>
+    
+    <script src="script.js"></script>
+    <script></script>
+
+</body>
+</html>
