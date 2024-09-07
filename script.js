@@ -341,7 +341,7 @@ skip_ent.addEventListener("click",function(){
         display_back = substr_all.substr(0,display_back_np);
         pointer = Number(display_back_np)+1;
         change_value_all();
-        if(200<Number(display_back_np)){
+        if(20736<Number(display_back_np)){
             alert("201桁以上は対応していません");
         };
         display_back_np = "";
